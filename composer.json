@@ -1,0 +1,15 @@
+{
+    "name": "webxander/patrones",
+    "description": "Patrones de diseño en PHP - Design Patterns in PHP",
+    "require-dev": {
+        "filp/whoops": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejandro Cayssials",
+            "email": "snackbarchat@gmail.com"
+        }
+    ],
+    "require": {}
+}
