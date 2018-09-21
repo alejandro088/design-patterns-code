@@ -6,8 +6,10 @@
  * and open the template in the editor.
  */
 
-namespace Patterns\Example\AbstractFactory;
+namespace Patterns\Example\AbstractFactory\Driver;
 
+use Patterns\Example\AbstractFactory\Database\MySQLDatabase;
+use Patterns\Example\AbstractFactory\ORM\ORMMySQL;
 /**
  * Description of MySQLDriverConnection
  *

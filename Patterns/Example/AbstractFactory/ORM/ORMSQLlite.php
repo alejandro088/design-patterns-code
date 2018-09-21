@@ -6,14 +6,17 @@
  * and open the template in the editor.
  */
 
-namespace Patterns\Example\AbstractFactory;
+namespace Patterns\Example\AbstractFactory\ORM;
 
 /**
- * Description of ORM
+ * Description of ORMSQLlite
  *
  * @author Alejandro
  */
-abstract class ORM {
+class ORMSQLlite extends ORM {
     //put your code here
-    abstract public function show();
+    public function show() {
+        echo "Soy ORM SQL Lite";
+    }
+
 }

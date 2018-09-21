@@ -6,7 +6,10 @@
  * and open the template in the editor.
  */
 
-namespace Patterns\Example\AbstractFactory;
+namespace Patterns\Example\AbstractFactory\Driver;
+
+use Patterns\Example\AbstractFactory\Database\SQLliteDatabase;
+use Patterns\Example\AbstractFactory\ORM\ORMSQLlite;
 
 /**
  * Description of SQLliteDriverConnection

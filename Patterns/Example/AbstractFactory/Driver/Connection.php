@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace Patterns\Example\AbstractFactory;
+namespace Patterns\Example\AbstractFactory\Driver;
 
 /**
  * Description of AbstractFactory
@@ -15,6 +15,7 @@ namespace Patterns\Example\AbstractFactory;
  */
 abstract class Connection {
     //put your code here
+    
     abstract public function makeDatabaseConnection();
     
     abstract public function makeORMConnection();

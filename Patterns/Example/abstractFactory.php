@@ -20,8 +20,8 @@ function db($driver)
  */
 
 
-$driver = new \Patterns\Example\AbstractFactory\MySQLDriverConnection();
-//$driver = new \Patterns\Example\AbstractFactory\SQLliteDriverConnection();
+//$driver = new \Patterns\Example\AbstractFactory\Driver\MySQLDriverConnection();
+$driver = new \Patterns\Example\AbstractFactory\Driver\SQLliteDriverConnection();
 
 echo $driver;
 

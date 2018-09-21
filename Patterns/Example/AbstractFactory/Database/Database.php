@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace Patterns\Example\AbstractFactory;
+namespace Patterns\Example\AbstractFactory\Database;
 
 /**
  * Description of Database
