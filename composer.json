@@ -11,5 +11,10 @@
             "email": "snackbarchat@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Patterns\\": "Patterns/"
+        }
+    }
 }
